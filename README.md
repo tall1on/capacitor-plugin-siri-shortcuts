@@ -1,5 +1,5 @@
-![ios](https://shields.io/badge/iOS-%3E%3D12.0-informational)
-![xcode](https://shields.io/badge/Xcode-%3E%3D10.0-informational)
+![ios](https://shields.io/badge/iOS-%3E%3D18.0-informational)
+![xcode](https://shields.io/badge/Xcode-%3E%3D16.0-informational)
 ![npm](https://shields.io/npm/dw/capacitor-plugin-siri-shorts)
 ![GitHub](https://shields.io/github/license/timozacherl/capacitor-plugin-siri-shortcuts)
 ![npm](https://shields.io/npm/v/capacitor-plugin-siri-shorts)
@@ -9,14 +9,15 @@
 
 ## 💥 Breaking Changes
 
-Version 6 of this Plugin only works with Capacitor 6.
+Version 7 of this Plugin only works with Capacitor 7.
+- For Capacitor 6 install `npm i capacitor-plugin-siri-shorts@6.0.0`.
 - For Capacitor 5 install `npm i capacitor-plugin-siri-shorts@5.0.0`.
 - For Capacitor 3 or 4 install `npm i capacitor-plugin-siri-shorts@3.0.0`.
 - For Capacitor 2 install `npm i capacitor-plugin-siri-shorts@1.0.3`.
 
 ## 🔧 Setup
 
-The Plugin requires at least iOS 12 and Xcode 10.
+The Plugin requires at least iOS 18+ and Xcode 16+.
 
 ```sh
 npm i capacitor-plugin-siri-shorts
@@ -170,7 +171,7 @@ Delets all the previously donated activities
 ### addListener('appLaunchBySiriShortcuts', ...)
 
 ```typescript
-addListener(eventName: 'appLaunchBySiriShortcuts', listenerFunc: (shortcut: Shortcut) => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'appLaunchBySiriShortcuts', listenerFunc: (shortcut: Shortcut) => void) => Promise<PluginListenerHandle>
 ```
 
 Listens to events associated with Siri Shortcuts
@@ -181,7 +182,7 @@ and notifies the listenerFunc if a Shortcuts has been executed.
 | **`eventName`**    | <code>'appLaunchBySiriShortcuts'</code>                              | Name of the event                               |
 | **`listenerFunc`** | <code>(shortcut: <a href="#shortcut">Shortcut</a>) =&gt; void</code> | Function to execute when listener gets notified |
 
-**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt; & <a href="#pluginlistenerhandle">PluginListenerHandle</a></code>
+**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
 
 **Since:** 2.0.1
 
