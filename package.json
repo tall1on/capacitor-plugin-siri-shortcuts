@@ -1,7 +1,10 @@
 {
-  "name": "capacitor-plugin-siri-shorts",
+  "name": "@bubble-labs/capacitor-plugin-siri-shorts",
   "version": "7.0.0",
   "description": "Capacitor Plugin for Siri Shortcuts",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -22,7 +25,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Timo Zacherl",
+  "author": "Dale Myszkowski, Timo Zacherl",
   "license": "MIT",
   "devDependencies": {
     "@capacitor/android": "^7.0.0",
@@ -69,9 +72,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimoZacherl/capacitor-plugin-siri-shortcuts"
+    "url": "https://github.com/greenygh0st/capacitor-plugin-siri-shortcuts"
   },
   "bugs": {
-    "url": "https://github.com/TimoZacherl/capacitor-plugin-siri-shortcuts/issues"
+    "url": "https://github.com/greenygh0st/capacitor-plugin-siri-shortcuts/issues"
   }
 }
