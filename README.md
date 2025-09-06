@@ -17,7 +17,7 @@ Version 7 of this Plugin only works with Capacitor 7.
 
 ## 🔧 Setup
 
-The Plugin requires at least iOS 18+ and Xcode 16+.
+The Plugin requires at least iOS 14+ and Xcode 16+.
 
 ```sh
 npm i capacitor-plugin-siri-shorts

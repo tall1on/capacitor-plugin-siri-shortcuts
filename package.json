@@ -1,6 +1,6 @@
 {
-  "name": "@bubble-labs/capacitor-plugin-siri-shorts",
-  "version": "7.0.3",
+  "name": "@tall1on/capacitor-plugin-siri-shorts",
+  "version": "7.0.5",
   "description": "Capacitor Plugin for Siri Shortcuts",
   "publishConfig": {
     "access": "public"
@@ -50,7 +50,7 @@
     "dist/",
     "ios/",
     "android/",
-    "BubbleLabsCapacitorPluginSiriShorts.podspec"
+    "CapacitorPluginSiriShorts.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -72,9 +72,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/greenygh0st/capacitor-plugin-siri-shortcuts"
+    "url": "https://github.com/tall1on/capacitor-plugin-siri-shortcuts"
   },
   "bugs": {
-    "url": "https://github.com/greenygh0st/capacitor-plugin-siri-shortcuts/issues"
+    "url": "https://github.com/tall1on/capacitor-plugin-siri-shortcuts/issues"
   }
 }
