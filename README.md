@@ -1,6 +1,6 @@
-![ios](https://shields.io/badge/iOS-%3E%3D18.0-informational)
+![ios](https://shields.io/badge/iOS-%3E%3D14.0-informational)
 ![xcode](https://shields.io/badge/Xcode-%3E%3D16.0-informational)
-![npm](https://shields.io/npm/dw/capacitor-plugin-siri-shorts)
+![npm](https://shields.io/npm/dw/@tall1on/capacitor-plugin-siri-shorts)
 ![GitHub](https://shields.io/github/license/timozacherl/capacitor-plugin-siri-shortcuts)
 ![npm](https://shields.io/npm/v/capacitor-plugin-siri-shorts)
 ![capacitor](https://shields.io/badge/Capacitor-%3E%3D3.0.0-informational)
