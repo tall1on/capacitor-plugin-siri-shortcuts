@@ -1,7 +1,7 @@
 PODS:
-  - Capacitor (7.2.0):
+  - Capacitor (8.0.0):
     - CapacitorCordova
-  - CapacitorCordova (7.2.0)
+  - CapacitorCordova (8.0.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
